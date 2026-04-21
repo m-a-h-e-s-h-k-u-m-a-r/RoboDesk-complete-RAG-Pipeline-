@@ -1,0 +1,86 @@
+AXIOM ROBOTICS — ROBOT CATALOG
+
+=== AX-100 ENTRY-LEVEL COLLABORATIVE ROBOT ===
+Model: AX-100
+Type: Collaborative Robot (Cobot)
+Payload Capacity: 3 kg
+Reach: 600 mm
+Degrees of Freedom: 6
+Repeatability: ±0.05 mm
+Weight: 18 kg
+Power Supply: 100–240 V AC, 50/60 Hz
+Max Speed: 1.5 m/s
+IP Rating: IP54
+Operating Temperature: 0–50°C
+Programming Interface: Axiom Studio (drag-and-drop), Python SDK, ROS 2
+Safety Features: Force/torque sensing, collision detection, speed limiting
+Applications: Light assembly, pick-and-place, quality inspection, lab automation
+Price: $24,999 USD
+
+The AX-100 is designed for small businesses and educational institutions entering automation. Its intuitive programming interface requires no prior robotics experience. The built-in force/torque sensor enables safe human-robot collaboration without safety fencing in most applications.
+
+=== AX-200 MID-RANGE COLLABORATIVE ROBOT ===
+Model: AX-200
+Type: Collaborative Robot (Cobot)
+Payload Capacity: 5 kg
+Reach: 850 mm
+Degrees of Freedom: 6
+Repeatability: ±0.03 mm
+Weight: 24 kg
+Power Supply: 100–240 V AC, 50/60 Hz
+Max Speed: 2.0 m/s
+IP Rating: IP54
+Operating Temperature: 0–50°C
+Programming Interface: Axiom Studio, Python SDK, ROS 2, REST API
+Safety Features: Force/torque sensing, collision detection, speed limiting, safety-rated monitored stop
+Applications: Assembly, machine tending, welding, packaging, palletizing
+Price: $39,999 USD
+
+The AX-200 is the most popular model in the Axiom lineup. It balances payload capacity, reach, and precision for mid-size manufacturing operations. The REST API integration allows seamless connection to MES and ERP systems.
+
+=== AX-500 HEAVY-DUTY INDUSTRIAL ROBOT ===
+Model: AX-500
+Type: Industrial Robot Arm
+Payload Capacity: 20 kg
+Reach: 1,300 mm
+Degrees of Freedom: 6
+Repeatability: ±0.02 mm
+Weight: 68 kg
+Power Supply: 200–480 V AC, 3-phase
+Max Speed: 3.5 m/s
+IP Rating: IP65
+Operating Temperature: -10–55°C
+Programming Interface: Axiom Studio Pro, Python SDK, ROS 2, REST API, OPC-UA
+Safety Features: Emergency stop, safety fencing required, light curtains compatible
+Applications: Heavy assembly, casting, forging, automotive, aerospace
+Price: $89,999 USD
+
+The AX-500 is engineered for demanding industrial environments. Its IP65 rating makes it suitable for dusty and wet conditions. Safety fencing is required for operation due to its high speed and payload capacity.
+
+=== AX-MOBILE AUTONOMOUS MOBILE ROBOT ===
+Model: AX-Mobile
+Type: Autonomous Mobile Robot (AMR)
+Payload Capacity: 150 kg
+Navigation: LiDAR SLAM + camera fusion
+Max Speed: 1.8 m/s
+Battery Life: 10 hours continuous operation
+Charging Time: 2 hours (fast charge)
+Dimensions: 800 × 600 × 300 mm
+IP Rating: IP52
+Operating Temperature: 0–40°C
+Programming Interface: Fleet Manager Software, REST API
+Safety Features: 360° obstacle detection, emergency stop, bumper sensors
+Applications: Warehouse logistics, hospital supply delivery, factory material transport
+Price: $54,999 USD
+
+The AX-Mobile navigates autonomously using a combination of LiDAR and camera sensors. It integrates with warehouse management systems via REST API and can be managed in fleets of up to 50 units through the Fleet Manager Software.
+
+=== ACCESSORIES AND ADD-ONS ===
+
+Gripper Kit (GK-100): Compatible with AX-100 and AX-200. Includes parallel gripper, vacuum gripper, and magnetic gripper. Price: $1,499 USD.
+
+Vision System (VS-200): 2D/3D camera system with AI-powered object recognition. Compatible with all AX series robots. Price: $3,999 USD.
+
+Force/Torque Sensor (FT-300): High-precision 6-axis sensor for delicate assembly tasks. Compatible with AX-200 and AX-500. Price: $2,499 USD.
+
+Extended Warranty (EW-2Y): 2-year extension beyond standard warranty. Available for all models. Price: 10% of robot purchase price.

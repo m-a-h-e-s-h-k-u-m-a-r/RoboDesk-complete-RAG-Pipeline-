@@ -1,0 +1,95 @@
+AXIOM ROBOTICS — TROUBLESHOOTING GUIDE
+
+=== ERROR CODES AND SOLUTIONS ===
+
+ERROR E001 — JOINT POSITION LIMIT EXCEEDED
+Description: The robot attempted to move beyond its mechanical joint limits.
+Cause: Program path moves outside the robot's workspace, or incorrect tool/workpiece offsets.
+Solution:
+1. Press the emergency stop button immediately.
+2. In Axiom Studio, open the program and check all waypoints are within the robot's reach envelope.
+3. Verify tool center point (TCP) offsets are correctly configured.
+4. Use the "Workspace Checker" tool in Axiom Studio to validate all positions.
+5. Restart the robot controller and resume operation.
+If the error persists after correcting the program, contact support.
+
+ERROR E002 — COLLISION DETECTED
+Description: The force/torque sensor detected unexpected contact.
+Cause: Obstacle in the robot's path, incorrect force threshold settings, or sensor malfunction.
+Solution:
+1. Clear the robot's workspace of any obstacles.
+2. Check force/torque threshold settings in the safety configuration panel.
+3. If the robot collided with a workpiece, verify fixture positions and program waypoints.
+4. Run a slow-speed test (10% speed) to identify the collision point.
+5. If no obstacle is present and thresholds are correct, the sensor may need recalibration — contact support.
+
+ERROR E003 — COMMUNICATION TIMEOUT
+Description: The robot controller lost communication with the host PC or PLC.
+Cause: Network cable disconnected, IP address conflict, firewall blocking communication, or controller restart required.
+Solution:
+1. Check all network cables are securely connected.
+2. Verify the robot's IP address matches the configuration in Axiom Studio (Settings > Network).
+3. Ensure no firewall rules are blocking ports 8080 (REST API) and 29999 (Axiom Studio).
+4. Restart the robot controller using the power button on the control box.
+5. If using a PLC, verify the PLC program is sending heartbeat signals correctly.
+
+ERROR E004 — MOTOR OVERTEMPERATURE
+Description: One or more joint motors exceeded the safe operating temperature.
+Cause: Continuous high-speed operation, ambient temperature too high, or blocked ventilation.
+Solution:
+1. Stop the robot and allow it to cool for at least 30 minutes.
+2. Check that the control box ventilation slots are not blocked.
+3. Verify ambient temperature is within the operating range (0–50°C for AX-100/AX-200, -10–55°C for AX-500).
+4. Reduce cycle speed or add rest periods if the robot is running at maximum speed continuously.
+5. If overtemperature occurs at normal operating conditions, a joint motor may need replacement — contact support.
+
+ERROR E005 — SAFETY SYSTEM FAULT
+Description: The safety monitoring system detected an inconsistency.
+Cause: Safety input signal lost, safety relay fault, or safety configuration mismatch.
+Solution:
+1. Check all emergency stop buttons are released (twist to release).
+2. Verify safety input wiring is intact and connectors are secure.
+3. Check the safety configuration in Axiom Studio matches the physical safety setup.
+4. Perform a safety system reset: hold the reset button on the control box for 3 seconds.
+5. If the fault persists, do not operate the robot — contact support immediately.
+
+=== INSTALLATION TROUBLESHOOTING ===
+
+ISSUE: Robot does not power on
+Check: Verify power cable is connected and the main power switch on the control box is in the ON position. Check that the power outlet is live (use a voltage tester). Verify the emergency stop is released.
+
+ISSUE: Axiom Studio cannot connect to the robot
+Check: Ensure the robot and PC are on the same network subnet. Verify the robot's IP address (displayed on the teach pendant during startup). Disable Windows Firewall temporarily to test. Try connecting via USB cable as an alternative.
+
+ISSUE: Robot moves erratically during first startup
+Check: This is normal during the initial calibration sequence. Allow the robot to complete its full startup routine (approximately 2 minutes). If erratic movement continues after calibration, stop the robot and contact support.
+
+ISSUE: Teach pendant touchscreen is unresponsive
+Check: Clean the screen with a dry cloth. Restart the teach pendant by holding the power button for 10 seconds. If unresponsive after restart, the touchscreen may need replacement — contact support.
+
+=== AX-MOBILE SPECIFIC TROUBLESHOOTING ===
+
+ISSUE: AX-Mobile cannot navigate to destination
+Check: Verify the map is up to date (Fleet Manager > Maps > Update). Ensure the destination is marked as accessible on the map. Check for physical obstacles blocking the path. Verify LiDAR sensors are clean and unobstructed.
+
+ISSUE: AX-Mobile battery drains faster than expected
+Check: Verify the robot is not carrying loads exceeding 150 kg. Check that the charging contacts are clean. Inspect the battery health in Fleet Manager (Diagnostics > Battery). If battery health is below 80%, schedule a battery replacement.
+
+ISSUE: AX-Mobile loses position (localization failure)
+Check: The robot needs distinctive landmarks for LiDAR navigation. Ensure the environment has not changed significantly (moved shelves, new obstacles). Run a re-mapping session from Fleet Manager. Avoid highly reflective surfaces near the robot's path.
+
+=== CONTACTING SUPPORT ===
+
+Before contacting support, please have the following information ready:
+- Robot model and serial number (found on the label on the control box)
+- Software version (Axiom Studio > Help > About)
+- Error code and description
+- Steps already taken to resolve the issue
+- Photos or video of the issue if possible
+
+Support Contact:
+Phone: +1-800-AXIOM-01 (Monday–Friday, 8 AM–8 PM EST)
+Emergency (24/7): +1-800-AXIOM-911 (Premium Support customers only)
+Email: support@axiomrobotics.com
+Live Chat: www.axiomrobotics.com/support
+Remote Diagnostics: Available for AX-200 and AX-500 with active support contract

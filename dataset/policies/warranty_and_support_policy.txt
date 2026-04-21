@@ -1,0 +1,132 @@
+AXIOM ROBOTICS — WARRANTY AND SUPPORT POLICY
+
+=== STANDARD WARRANTY ===
+
+Coverage Period
+All Axiom Robotics products are covered by a 1-year limited warranty from the date of delivery to the original purchaser.
+
+What Is Covered
+The standard warranty covers:
+- Manufacturing defects in materials and workmanship
+- Defective electronic components (controller boards, sensors, motors)
+- Software defects that prevent normal operation
+- Structural defects in the robot arm and base
+
+What Is NOT Covered
+The standard warranty does not cover:
+- Damage caused by misuse, abuse, or negligence
+- Damage caused by unauthorized modifications or repairs
+- Normal wear items: cables, connectors, end-effectors, grippers, and seals
+- Damage caused by operating outside specified environmental conditions
+- Cosmetic damage (scratches, dents) that does not affect functionality
+- Damage caused by power surges or improper electrical installation
+- Consumable items: lubricants, filters, and batteries (AX-Mobile)
+
+Warranty Claim Process
+1. Contact Axiom support at support@axiomrobotics.com or +1-800-AXIOM-01
+2. Provide proof of purchase, robot serial number, and description of the defect
+3. Axiom will issue a Return Merchandise Authorization (RMA) number within 2 business days
+4. Ship the defective unit or component to the designated Axiom service center
+5. Axiom will repair or replace the defective item within 10 business days of receipt
+6. Repaired or replaced items are covered for the remainder of the original warranty period or 90 days, whichever is longer
+
+=== EXTENDED WARRANTY OPTIONS ===
+
+EW-1Y: 1-Year Extension
+- Extends coverage to 2 years total from delivery date
+- Same coverage as standard warranty
+- Price: 5% of original robot purchase price
+- Must be purchased within 90 days of delivery
+
+EW-2Y: 2-Year Extension
+- Extends coverage to 3 years total from delivery date
+- Same coverage as standard warranty
+- Price: 10% of original robot purchase price
+- Must be purchased within 90 days of delivery
+
+EW-3Y: 3-Year Extension
+- Extends coverage to 4 years total from delivery date
+- Includes one preventive maintenance visit per year
+- Price: 15% of original robot purchase price
+- Must be purchased within 90 days of delivery
+
+=== SUPPORT PLANS ===
+
+Standard Support (Included with all purchases)
+- Phone and email support: Monday–Friday, 8 AM–8 PM EST
+- Response time: Next business day
+- Access to online knowledge base and documentation
+- Software updates and patches
+
+Professional Support Plan
+- Price: $2,400/year per robot
+- Phone, email, and live chat support: Monday–Friday, 7 AM–10 PM EST
+- Response time: 4 hours
+- Remote diagnostics capability
+- Quarterly software health checks
+- Priority access to Axiom engineers
+
+Premium Support Plan
+- Price: $5,999/year per robot
+- 24/7 phone, email, and live chat support
+- Response time: 1 hour
+- Remote diagnostics and remote control capability
+- Monthly software health checks
+- Dedicated support engineer
+- On-site support visits: 2 per year included
+- Emergency on-site response within 24 hours
+
+=== PREVENTIVE MAINTENANCE ===
+
+Recommended Maintenance Schedule
+- Every 6 months or 4,000 operating hours (whichever comes first)
+- Includes: joint lubrication, cable inspection, software updates, safety system verification, and performance calibration
+
+Maintenance Service Pricing
+- AX-100: $499 per visit
+- AX-200: $699 per visit
+- AX-500: $999 per visit
+- AX-Mobile: $799 per visit
+
+Maintenance Contract (Annual)
+- 2 visits per year at 15% discount
+- Includes all parts and labor for standard maintenance items
+- Priority scheduling
+
+=== SPARE PARTS AND REPAIRS ===
+
+Spare Parts Availability
+Axiom guarantees spare parts availability for a minimum of 7 years after the product's end-of-sale date. Critical spare parts are stocked at regional service centers for next-day delivery.
+
+Out-of-Warranty Repairs
+Repairs outside the warranty period are billed at:
+- Labor: $150/hour
+- Parts: List price
+- Minimum diagnostic fee: $250 (applied toward repair cost if repair is approved)
+
+Repair Turnaround Time
+- Standard repair: 10–15 business days
+- Expedited repair: 5–7 business days (50% surcharge)
+- Emergency repair: 2–3 business days (100% surcharge)
+
+=== RETURNS AND REFUNDS ===
+
+Return Policy
+- New, unopened products may be returned within 30 days of delivery for a full refund
+- Opened products may be returned within 14 days for a refund minus a 15% restocking fee
+- Custom-configured products are non-returnable
+- Software licenses are non-refundable once activated
+
+Return Process
+1. Contact sales@axiomrobotics.com to request a return authorization
+2. Products must be returned in original packaging with all accessories
+3. Refunds are processed within 10 business days of receiving the returned product
+
+=== CONTACT INFORMATION ===
+
+Sales: sales@axiomrobotics.com | +1-800-AXIOM-00
+Support: support@axiomrobotics.com | +1-800-AXIOM-01
+Emergency Support (24/7): +1-800-AXIOM-911 (Premium Support only)
+Warranty Claims: warranty@axiomrobotics.com
+Website: www.axiomrobotics.com
+Headquarters: 1000 Innovation Drive, San Jose, CA 95110, USA

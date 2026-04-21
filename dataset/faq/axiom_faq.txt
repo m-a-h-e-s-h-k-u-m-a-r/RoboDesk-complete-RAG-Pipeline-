@@ -1,0 +1,66 @@
+AXIOM ROBOTICS — FREQUENTLY ASKED QUESTIONS
+
+=== GENERAL QUESTIONS ===
+
+Q: What is a collaborative robot (cobot)?
+A: A collaborative robot, or cobot, is a robot designed to work safely alongside humans without requiring safety fencing in most applications. Axiom cobots (AX-100 and AX-200) use force/torque sensing and collision detection to stop automatically when they contact a person. This makes them ideal for small spaces and tasks requiring human-robot teamwork.
+
+Q: Do I need programming experience to use an Axiom robot?
+A: No. The Axiom Studio software provides a drag-and-drop interface that allows users with no programming background to create robot programs. For advanced users, Python SDK and ROS 2 integration are available. Most customers are up and running within one day of installation.
+
+Q: What industries use Axiom robots?
+A: Axiom robots are used across manufacturing, logistics, healthcare, food and beverage, electronics, automotive, aerospace, and education. The AX-100 is popular in labs and small workshops; the AX-200 in mid-size manufacturing; the AX-500 in heavy industry; and the AX-Mobile in warehouses and hospitals.
+
+Q: Can Axiom robots work 24/7?
+A: Yes. All Axiom robot arms (AX-100, AX-200, AX-500) are designed for continuous 24/7 operation. The AX-Mobile has a 10-hour battery life and requires a 2-hour recharge cycle. Planned maintenance every 6 months is recommended for optimal performance.
+
+=== TECHNICAL QUESTIONS ===
+
+Q: What is the payload capacity of each model?
+A: AX-100: 3 kg, AX-200: 5 kg, AX-500: 20 kg, AX-Mobile: 150 kg (transport payload).
+
+Q: What is the reach of each robot arm model?
+A: AX-100: 600 mm, AX-200: 850 mm, AX-500: 1,300 mm.
+
+Q: What programming languages are supported?
+A: All models support Axiom Studio (visual programming), Python SDK, and ROS 2. The AX-200 and AX-500 additionally support REST API integration. The AX-500 also supports OPC-UA for industrial system integration.
+
+Q: Is safety fencing required?
+A: For the AX-100 and AX-200 cobots, safety fencing is typically not required when operating within collaborative speed limits. A risk assessment is always recommended. The AX-500 industrial robot requires safety fencing due to its high speed and payload.
+
+Q: What is the IP rating of each model?
+A: AX-100: IP54, AX-200: IP54, AX-500: IP65, AX-Mobile: IP52. IP65 means the AX-500 is fully dust-tight and protected against water jets.
+
+Q: Can I integrate Axiom robots with my existing ERP or MES system?
+A: Yes. The AX-200 and AX-500 support REST API integration, allowing connection to most ERP and MES systems. The AX-500 also supports OPC-UA, which is the standard protocol for industrial automation systems.
+
+Q: How accurate are Axiom robots?
+A: Repeatability specifications: AX-100: ±0.05 mm, AX-200: ±0.03 mm, AX-500: ±0.02 mm. These figures represent the robot's ability to return to the same position repeatedly, which is critical for precision assembly tasks.
+
+=== PURCHASING AND DELIVERY ===
+
+Q: How long does delivery take?
+A: Standard delivery is 4–6 weeks from order confirmation. Expedited delivery (2–3 weeks) is available for an additional fee. The AX-Mobile has a 6–8 week lead time due to custom configuration options.
+
+Q: Do you offer financing?
+A: Yes. Axiom offers 12, 24, and 36-month financing options through our financial partners. Contact your regional sales representative for details.
+
+Q: Is installation included in the purchase price?
+A: Standard installation and commissioning is included for all robot arm models purchased directly from Axiom or authorized distributors. AX-Mobile installation requires a site survey and is quoted separately.
+
+Q: Can I demo a robot before purchasing?
+A: Yes. Axiom has demonstration centers in major cities. Contact sales@axiomrobotics.com to schedule a demo. Virtual demos via video conference are also available.
+
+=== SUPPORT AND MAINTENANCE ===
+
+Q: What is included in the standard warranty?
+A: All Axiom robots include a 1-year parts and labor warranty covering manufacturing defects. The warranty does not cover damage from misuse, unauthorized modifications, or normal wear items such as cables and end-effectors.
+
+Q: How do I get technical support?
+A: Technical support is available via phone (+1-800-AXIOM-01), email (support@axiomrobotics.com), and live chat on our website. Support hours are Monday–Friday, 8 AM–8 PM EST. Emergency support for production-critical issues is available 24/7 for customers with a Premium Support contract.
+
+Q: How often does the robot need maintenance?
+A: Axiom recommends preventive maintenance every 6 months or 4,000 operating hours, whichever comes first. Maintenance includes joint lubrication, cable inspection, software updates, and safety system verification.
+
+Q: Can I perform maintenance myself?
+A: Basic maintenance tasks (software updates, cable inspection) can be performed by trained operators. Joint lubrication and mechanical inspections should be performed by Axiom-certified technicians. Unauthorized disassembly voids the warranty.
